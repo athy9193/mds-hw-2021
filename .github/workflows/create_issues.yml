@@ -1,3 +1,4 @@
+# remove this line on the create branch to trigger this workflow in a new copy of this repository (ensure that issues are enabled)
 on: 
   push:
     branches: create
