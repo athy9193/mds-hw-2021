@@ -10,7 +10,7 @@ A GitHub repository that serves 2 purposes:
 
 1. **Import** this repository to obtain a copy of it for yourself (do not fork it)
 
-2. Create a remote branch named `create` (this will use GitHub Actions to create 19 issues for you in your copy of this repository)
+2. Create a remote branch named `create` and remove [line 1 from the `.github/workflows/create_issues.yml` file](/.github/workflows/create_issues.yml#L1) (this will use GitHub Actions to create 19 issues for you in your copy of this repository)
 
 3. Create 5 milestones, named week 1 through to week 5, and group the relevant issue to each milestone
 
