@@ -109,12 +109,42 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         title: DSCI 574 lab3
         content-filepath: ./issue-content/lab.md
-    - name: Create 574 lab4 issue
+    - name: Create 574 quiz 1 issue
       uses: peter-evans/create-issue-from-file@v2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        title: DSCI 574 lab4
-        content-filepath: ./issue-content/lab.md
+        title: DSCI 574 quiz1
+        content-filepath: ./issue-content/quiz.md
+    - name: Create 563 quiz 1 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 563 quiz1
+        content-filepath: ./issue-content/quiz.md
+    - name: Create 553 quiz 1 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 553 quiz1
+        content-filepath: ./issue-content/quiz.md
+    - name: Create 574 quiz 2 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 574 quiz2
+        content-filepath: ./issue-content/quiz.md
+    - name: Create 563 quiz 2 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 563 quiz2
+        content-filepath: ./issue-content/quiz.md
+    - name: Create 553 quiz 2 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 553 quiz2
+        content-filepath: ./issue-content/quiz.md
 
 
 

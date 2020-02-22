@@ -1,0 +1,1 @@
+- [ ] reviewed/practived labs and tested whether I could do the lecture learning objectives to study for the quiz
