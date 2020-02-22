@@ -1,0 +1,2 @@
+- [ ] Provided peer review feedback to assigned R package using the [ROpenSci review guidelines](https://devguide.ropensci.org/reviewerguide.html)
+- [ ] Provided peer review feedback to assigned Python package using the [PyOpenSci review guidelines](https://www.pyopensci.org/dev_guide/peer_review/reviewer_guide.html)
