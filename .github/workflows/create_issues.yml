@@ -19,6 +19,102 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         title: DSCI 524 toy packages
         content-filepath: ./issue-content/dsci-524-toy-packages.md
+    - name: Create 524 milestone2 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 524 milestone2
+        content-filepath: ./issue-content/dsci-524-milestone2.md
+    - name: Create 524 milestone3 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 524 milestone3
+        content-filepath: ./issue-content/dsci-524-milestone3.md
+    - name: Create 524 peer review issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 524 peer review
+        content-filepath: ./issue-content/dsci-524-peer_review.md
+    - name: Create 524 milestone4 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 524 milestone4
+        content-filepath: ./issue-content/dsci-524-milestone4.md
+    - name: Create 553 lab1 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 553 lab1
+        content-filepath: ./issue-content/lab.md
+    - name: Create 553 lab2 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 553 lab2
+        content-filepath: ./issue-content/lab.md
+    - name: Create 553 lab3 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 553 lab3
+        content-filepath: ./issue-content/lab.md
+    - name: Create 553 lab4 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 553 lab4
+        content-filepath: ./issue-content/lab.md
+    - name: Create 563 lab1 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 563 lab1
+        content-filepath: ./issue-content/lab.md
+    - name: Create 563 lab2 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 563 lab2
+        content-filepath: ./issue-content/lab.md
+    - name: Create 563 lab3 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 563 lab3
+        content-filepath: ./issue-content/lab.md
+    - name: Create 563 lab4 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 563 lab4
+        content-filepath: ./issue-content/lab.md
+    - name: Create 574 lab1 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 574 lab1
+        content-filepath: ./issue-content/lab.md
+    - name: Create 574 lab2 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 574 lab2
+        content-filepath: ./issue-content/lab.md
+    - name: Create 574 lab3 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 574 lab3
+        content-filepath: ./issue-content/lab.md
+    - name: Create 574 lab4 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 574 lab4
+        content-filepath: ./issue-content/lab.md
 
 
 
