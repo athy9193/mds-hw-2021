@@ -1,0 +1,2 @@
+- [ ] Created a toy R package by working through [the Whole Game chapter of the R packages book](https://r-pkgs.org/whole-game.html)
+- [ ] Created a toy Python package by working through [the Whole Game chapter of the Python packages book](https://ubc-mds.github.io/py-pkgs/whole-game.html)
