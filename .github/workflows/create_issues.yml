@@ -1,0 +1,15 @@
+on: 
+  push:
+    branches: create
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Create 524 milestone1 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 524 milestone1
+        content-filepath: ./issue-content/dsci-524-milestone1.md
