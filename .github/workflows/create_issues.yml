@@ -53,7 +53,7 @@ jobs:
       uses: peter-evans/create-issue-from-file@v2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        title: DSCI 524 milestone4
+        title: DSCI 524 team work reflection
         content-filepath: ./issue-content/dsci-524-team_work.md
     - name: Create 554 lab1 issue
       uses: peter-evans/create-issue-from-file@v2
@@ -120,6 +120,12 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         title: DSCI 542 lab3
+        content-filepath: ./issue-content/lab.md
+    - name: Create 542 lab4 issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: DSCI 542 lab4
         content-filepath: ./issue-content/lab.md
     - name: Create 563 quiz 1 issue
       uses: peter-evans/create-issue-from-file@v2
